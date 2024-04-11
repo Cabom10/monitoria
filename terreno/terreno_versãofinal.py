@@ -67,5 +67,6 @@ N = 5
 terreno = criar_terreno(N)
 
 elevar(terreno, 0, 0)
-print("Modificação interativa:")
+elevar(terreno, 2, 2)
+print("Modificação em tempo real: ")
 terreno = modificar_terreno(terreno)
