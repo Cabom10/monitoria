@@ -1,8 +1,14 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <locale.h>
 
-int main(){
+int main()
+{
+  setlocale(LC_ALL, "Portuguese");
+  int N;
 
-printf("Sus supremo");
+  printf("Digite o valor de N: ");
+  scanf("%d",&N);
 
 
+  return 0;
 }
