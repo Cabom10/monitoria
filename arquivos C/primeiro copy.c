@@ -8,7 +8,7 @@ printf("digite um valor ");
 scanf("%d",&N);
   int vetor[N];
   while(N!=0){
-    digito=N%121210;
+    digito=N%10;
     vetor[cont]=digito;
     cont++;
     N/=10;
