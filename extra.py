@@ -80,3 +80,9 @@ imprimir_conjunto(conjunto_intersecao)
 
 # Verificando se os conjuntos são iguais
 print("Conjuntos são iguais:", conjuntos_iguais(conjunto1, conjunto2))
+
+conjunto3=criar_conjunto()
+ler_conjunto(conjunto3,[4,5,6,7,8])
+imprimir_conjunto(conjunto3)
+
+print("conjutos iguais: ",conjuntos_iguais(conjunto2,conjunto3))
